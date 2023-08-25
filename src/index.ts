@@ -1,10 +1,10 @@
-import express from "express";
-
 import dotenv from "dotenv";
 dotenv.config();
 
-import Greeting from "./react/greeting";
+import express from "express";
 import path from "path";
+
+import Greeting from "./react/greeting";
 
 const app = express();
 const port = process.env.PORT ?? 3000;
